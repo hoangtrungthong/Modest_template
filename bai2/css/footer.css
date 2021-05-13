@@ -1,0 +1,60 @@
+.footer {
+	display: flex;
+	padding: 20px; 
+}
+
+.footer h1 {
+	border-bottom: 2px solid #ccc;
+	color: #444061;
+	bor
+}
+
+.footer .f {
+	padding: 25px;
+	margin-left: 90px;
+}
+
+.footer .f img {
+	width: 60px;
+	height: 60px;
+
+}
+
+.footer .f div {
+	padding-top: 15px;
+}
+
+.footer .footer1 {
+	display: grid;
+	color: #97969c;
+}
+
+.footer .footer1 button {
+	width: 200px;
+    margin-top: 250px;
+    border: 1px solid #7dcff5;
+    background-color: #7dcff5;
+    margin-left: 0px;
+    height: 40px;
+    color: white;
+}
+
+.footer .footer2 {
+	display: grid;
+	padding: 25px;
+
+} 
+
+.footer a{
+	text-decoration: none;
+	color: #97969c;
+}
+
+.footer ul li {
+	list-style-type: none;
+	padding: 5px;
+}
+
+.footer ul {
+	padding-top: 15px;
+}

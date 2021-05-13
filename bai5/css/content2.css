@@ -1,0 +1,20 @@
+.content2 {
+	display: flex;
+	margin: 60px 80px 80px 85px;
+	padding-bottom: 80px;
+	border-bottom: 1px solid #ccc;
+}
+
+.content2 .subcontent {
+	
+	display: flex;
+	color: #77808b;
+}
+
+.content2 .subcontent img {
+	margin-right: 15px;
+}
+
+.content2 .subcontent.rong {
+	padding-left: 70px;
+}

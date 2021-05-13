@@ -1,0 +1,60 @@
+/* .header {
+	height: 500px;
+} */
+
+.header > img {
+	width: 100%;
+}
+
+.tren , .duoi {
+	position: absolute;
+
+}
+
+.tren {
+	z-index: 1;
+}
+
+.duoi {
+	z-index: 0;
+}
+
+.tren {
+	color: white;
+	text-align: center;
+	margin: 150px 350px ;
+	width: 50%;
+}
+
+.tren h1 {
+	font-size: 50px;
+}
+
+.tren p {
+	width: 78%;
+    margin-left: 77px;
+}
+
+.tren #trai {
+	background-color: #83c129;
+	box-shadow: 0px 6px #518719;
+}
+
+.tren #phai {
+	background-color: #068fd5;
+	box-shadow: 0px 6px #046b9f ;
+}
+
+.tren .chung {
+	text-align: center;
+	padding: 10px 10px 10px 10px;
+	border: none;
+	border-radius: 5px;
+	color: white;
+
+}
+
+.tren button:hover {
+	background-color: #ccc;
+	color: black;
+}

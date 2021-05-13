@@ -1,0 +1,46 @@
+.leter{
+	padding-top: 340px;
+}
+.leter .letter1 {
+	background-color: #f8f8f8;
+	height: 200px;
+}
+
+.leter h1 {
+	text-align: center;
+	color: #4d4c6c;
+}
+
+.leter .letter1 p {
+	width: 545px;
+	padding-top: 30px; 
+	color: #4d4c6c;
+}
+
+.leter .letter1 div {
+	margin-left: 604px;
+	padding-top: 30px;
+}
+
+.leter .letter1 div form input {
+	width: 460px;
+	padding: 12px;
+}
+
+.leter .letter1 div form button {
+	background-color: #4c4b6b;
+	color: white;
+	width: 120px;
+	height: 40px;
+    margin-top: 1px;
+    margin-left: -22px;
+}
+
+.leter .letter2 {
+	margin-top: -277px;
+	padding-left: 20px;
+} 
+
+.leter .letter2 img {
+	width: 500px;
+}

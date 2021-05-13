@@ -1,0 +1,32 @@
+.content {
+	display: flex;
+	margin: 60px 80px 80px 85px;
+	padding-bottom: 80px;
+	border-bottom: 1px solid #ccc;
+	
+}
+
+.content .to > img {
+	width: 350px;
+	padding: 15px 15px;
+}
+
+.content > div {
+	margin-right: 60px;
+	border: 1px double #ccc;
+	border-bottom: 3px  double #ccc;
+	border-radius: 10px 10px 15px 15px; 
+}
+
+.content .nho {
+	display: flex;
+	padding: 10px 10px 10px 15px;
+	color: #454e5c;
+}
+
+.content .nho span {
+	color: #9da3a9;
+}
+.content .nho img {
+	margin-right: 15px;
+}

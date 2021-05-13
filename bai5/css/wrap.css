@@ -1,0 +1,57 @@
+body {
+	box-sizing: border-box;
+}
+@media only screen and (min-device-width:320px)and (max-device-width:480px)  {
+	.menu{
+		width: 100%;
+		text-align: center;
+	}
+	.root {
+		width: 50%;
+		
+	}
+	.header .tren {
+	margin-left: 10px;
+    margin-top: 7px;
+    width: 92%;
+    
+	}
+
+	.header .tren p {
+		margin-left: 50px;
+	}
+
+	.header .duoi {
+		width: 100%;
+		height: 135%;	
+	}
+
+	.content {
+	    display: inline-block;
+	    margin-left: 10px;
+	    margin-top: -30px;
+	    width: 113%;
+	}
+
+	.content div .to > img {
+		width: 100%;
+	}
+
+	.content div .nho {
+		width: 115%;
+	}
+
+	.content2 {
+		display: inline-block;
+
+	}
+
+	.content2 .subcontent {
+		
+	}
+	.footer {
+		width: 50%;
+	}
+	
+}
+

@@ -1,0 +1,80 @@
+.content6 {
+	
+	margin-top: 50px;
+	padding-bottom: 40px;
+	padding-top: 20px;
+}
+
+.content6 p {
+	font-size: 30px;
+	text-align: center;
+	margin-top: -10px;
+    margin-left: 390px;
+    width: 565px;
+}
+
+.content6 h1 {
+	text-align: center;
+
+}
+
+.content6 .dorong {
+	width: 300px;
+}
+
+.content6 #doctor1>img {
+	padding-left: 165px;
+    
+}
+
+.content6 #doctor1>h2 {
+	margin-left: 250px;
+}
+
+.content6 #doctor1>p {
+	margin-left: 37px;
+}
+
+.content6 #doctor1>div {
+	margin-left: 250px;
+}
+
+.content6 #doctor2 {
+	float: right;
+	position: absolute;
+	margin-left: 562px;
+    margin-top: -377px;
+}
+.content6 #doctor2>img {
+	margin-top: -73px;
+}
+
+.content6 #doctor2>h2 {
+	margin-left: 75px;
+}
+.content6 #doctor2>p {
+	margin-left: -127px;
+}
+
+.content6 #doctor2>div {
+	margin-left: 80px;
+}
+.content6 #doctor3 {
+	float: right;
+	position: absolute;
+	margin-left: 940px;
+}
+.content6 #doctor3>img {
+	margin-top: -448px;
+    position: absolute;
+}
+.content6 #doctor3>h2 {
+	margin-top: -135px;
+    margin-left: 70px;
+}
+.content6 #doctor3>p {
+	margin-left: -132px;
+}
+.content6 #doctor3>div {
+	margin-left: 80px;
+}

@@ -1,0 +1,46 @@
+.blog {
+	padding-top: 60px;
+	padding-left: 20px;
+}
+
+.blog .blog11 {
+	border-top: 1px solid #d2d0dd;
+	padding-top: 40px;
+}
+
+
+
+.blog .blog11 >div {
+	float: left;
+}
+
+.blog .blog11 .blog12 {
+	float: right;
+	padding-top: 20px;
+	padding-left: 15px;
+}
+
+.blog .blog11 .blog12 h2 {
+	padding-bottom: 10px;
+}
+
+.blog .blog11 .blog12 span {
+	color: #bcbcc8;
+	
+}
+
+.blog .blog11 .blog12 p {
+	padding-bottom: 10px;
+} 
+
+.blog .blog11 .blog12 a {
+	float: right;
+    padding-top: 27px;
+    margin-right: -50px;
+    color: black;
+}
+
+.blog .blog11 .blog12 > div {
+	padding-top: 13px;
+	padding-bottom: 10px;
+}

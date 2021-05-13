@@ -1,0 +1,44 @@
+.container {
+	min-height: 700px;
+	background: #FEC09B;
+}
+
+.container .row .form-background {
+	background: #E9AB9C;
+	margin-top: 120px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	
+}
+
+.container .row .form-background > h1 {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.form-item {
+	margin-bottom: 30px;
+}
+
+..form-group .reset-pass {
+	text-align: right;
+}
+
+.btn-login {
+	padding-bottom: 12px 30px;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	background: #F0BCB4;
+	color: white;
+	border: none;
+	outline: none;
+	display: table;
+	cursor: pointer;
+	margin: 15px auto 31px;
+}
+
+.user-register {
+	text-align: center;
+
+}

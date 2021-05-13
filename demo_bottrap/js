@@ -1,0 +1,7 @@
+-html coleection
+-quan ly cac class:
+    classlist.add();
+    classlist.remove();
+    classlist.toggle();
+    classlist.contain('ten class');
+    classlist.replace(new , old);

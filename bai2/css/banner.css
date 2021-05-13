@@ -1,0 +1,63 @@
+.baner2 {
+	margin-top: 40px;
+}
+
+.baner2 .feature {
+	width: 60%;
+}
+
+.baner2 .feature .baner1 {
+	display: grid;
+	margin-top: 40px;
+}
+
+.baner2 .feature .baner1 .baner4 {
+	display: flex;
+}
+
+.baner2 .feature .baner1 .baner4 span.abc {
+	margin-left: 200px;
+    margin-top: 60px;
+}
+
+.baner2 .feature .baner1 .baner4 span {
+	margin-left: 10px;
+}
+
+.baner2 .feature .baner1 .baner4 img#sel4 {
+	width: 180px;
+	margin-left: 40px;
+}
+
+.baner2 .feature .baner1 .baner4 img#sel2 {
+	width: 192px;
+}
+
+.baner2 .feature .baner1 .baner4 img#sel3 {
+	height: 208px;
+} 
+
+.baner2 .feature div.baner1 + div.baner4 {
+	padding-top: 30px;
+}
+
+.baner2 .baner3 {
+	width: 30%;
+	float: right;
+	margin-top: -513px;
+	margin-right: 100px; 
+}
+
+.baner2 .baner3 span {
+	float: right;
+	padding-right: 130px;
+	padding-top: 50px;
+}
+
+.baner2 .baner3 div {
+	padding-top: 40px;
+}
+
+.baner2 .baner3 p {
+	color: #99989d;
+}

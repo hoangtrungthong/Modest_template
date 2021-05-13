@@ -1,0 +1,42 @@
+.content3 {
+	background-color: #fcc302;
+	color: white;
+	margin-top: 50px;
+	padding-bottom: 30px;
+}
+
+.content3 .text3 {
+	text-align: center;
+	padding: 30px;
+}
+
+.content3 .text3>p {
+	font-size: 30px;
+	width: 534px;
+	margin-left: 368px;
+}
+
+.content3 #care1 {
+	width: 25%;
+    margin-left: 149px;
+    text-align: center;
+}
+
+.content3 #care2{
+	float: right;
+	width: 25%;
+    margin-right: 492px;
+    text-align: center;
+    margin-top: -321px;
+}
+
+
+.content3 #care3 {
+	float: right;
+	margin-left: 1000px;
+    text-align: center;
+    margin-top: -316px;
+    margin-right: 150px;
+    width: 25%;
+    z-index: auto
+}

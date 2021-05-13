@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    margin: 100px;
+}
+
+a {
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: rgb(15, 1, 1);
+    color: white;
+}
+
+/* menu */
+
+ul  {
+    width: 500px;
+    background-color: #FF8764;
+    display: flex;
+}
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    border-left: 1px solid white;
+    overflow: hidden;
+}
+
+ul li:first-child {
+    border: none;
+}
+
+ul li a {
+    display: block;
+    line-height: 50px;
+    padding: 0px 19px;
+    color: aliceblue;
+}
+
+a:hover {
+    background-color: #FD5A3A;
+    transition: ease-in 0.5s;
+    -moz-transition: ease-in 0.5s;
+}
+
+
+/* form */
+
+.form-sub {
+    width: 500px;
+    background-color: #FEB13F;
+    color: white;
+    padding: 50px;
+}
+
+form input {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+}
+
+button#btn-form {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #FF404F;
+    color: white;
+    border: none;
+}
+
+
+/* Register */
+
+.wrap-reg {
+    width: 500px;
+    max-height: 240px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.btn {
+    padding: 10px;
+    margin: 10px 10px 0 0 ;
+    color: white;
+}
+
+.btn-left {
+    border: none;
+}
+
+.btn-right {
+    border-radius: 20px;
+    border-style: none;
+} 
+
+.btn-1 {
+    background-color: #4E4584;
+}
+
+.btn-2 {
+ background-color: #4E4584;
+}
+
+.btn-3 {
+    background-color: #00B5A2;
+}
+
+.btn-4 {
+    background: #AF3563;
+}
+
+.btn-5 {
+    background: #E1E8E2;
+    color: #ccc;
+}
+
+
+
+/* form đăng nhập */
+
+.form-lg {
+    margin-top: 20px;
+    padding: 40px;
+    background-color: #303038;
+    width: 500px;
+}
+
+.form-lg input {
+    display: block;
+    border: 1px solid #2E313A;
+    padding-left: 55px;
+    border-radius: 5px;
+}
+
+.form-lg #user {
+    background: #3A4149 url('https://www.flaticon.com/svg/vstatic/svg/1077/1077063.svg?token=exp=1616510492~hmac=206f02d423947a490b9381cb7e90267a') no-repeat;
+}
+
+.form-lg #pwd {
+    background: #3A4149  url('https://www.flaticon.com/svg/vstatic/svg/1000/1000966.svg?token=exp=1616510982~hmac=467b86a53ab2dcd308ddaef2eebf01b1') no-repeat;
+}
+
+.form-lg button {
+    margin-top: 10px;
+    padding: 10px;
+    width: 237px;
+    background: #E94C88;
+    font-size: 20px;
+    color: white;
+    border: none;
+}
+
+.form-lg p {
+    margin-top: 10px;
+    color: #6F6F77;
+}
+
+.form-lg p a {
+    color: white;
+}

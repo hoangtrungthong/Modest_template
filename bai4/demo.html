@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width initical-scale=1">
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		form {
+			position: absolute;	
+			background-color: blue;
+			transform: translate(-50%,-50%);
+			height: 40px;
+			padding: 10px;
+			top: 50%;
+			left: 50%;
+			border-radius: 20px;
+		}
+
+		input {
+			float: left;
+			border: none;
+			background: none;
+			line-height: 40px;
+			transition: 0,4s;
+			width: 120px;
+			font-size: 16px;
+			padding: 0; 
+			outline: none;
+			color: white;
+		}
+
+		button {
+			width: 80px;
+			float: right;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			border-radius: 20px;
+			background-color: #ccc;
+			outline: none;
+		}
+		img {
+			width: 50%;
+		}
+
+		button:hover {
+			background-color: red;
+		}
+
+		button:active {
+			background-color: yellow;
+		}
+
+		input:active {
+			background-color: #ccc;
+			-moz-webkit-transition:10s;
+		}
+	</style>
+</head>
+<body>
+	
+	<form action="">
+			<input type="search" placeholder="tìm kiếm">
+			<button type="submit">
+				<img src="img/timkiem.png" alt="">
+			</button>
+	</form>
+
+</body>
+</html>

@@ -1,0 +1,91 @@
+.content5 {
+	background-color: #fcc302;
+	color: white;
+	margin-top: 50px;
+	padding-bottom: 40px;
+	padding-top: 20px;
+}
+
+.content5 p {
+	font-size: 30px;
+	text-align: center;
+	margin-top: -10px;
+    margin-left: 390px;
+    width: 565px;
+}
+
+.content5 h1 {
+	text-align: center;
+
+}
+
+.content5 button {
+	background-color: #00bec9;
+	border: 1px solid #00bec9;
+	padding: 10px;
+	border-radius: 30px;
+	color: white;
+	padding-left: 20px;
+    padding-right: 20px;
+}
+
+.content5 #anhcho1>button {
+	margin-left: 232px;
+	margin-top: -10px;
+}
+
+.content5 #anhcho1>img {
+	padding-left: 175px;
+    width: 220px;
+}
+
+.content5 #anhcho1>p {
+	text-align: left;
+	margin-top: 20px;
+    margin-left: 230px;
+}
+
+.content5 #anhcho2 {
+	float: right;
+	margin-top: -343px;
+	margin-right: 555px;
+}
+
+.content5 #anhcho2>img {
+	width: 220px;
+    margin-left: 170px;
+}
+
+.content5 #anhcho2>button {
+	position: absolute;
+    margin-top: 307px;
+    margin-left: -143px;
+}
+
+.content5 #anhcho2>p {
+	position: absolute;
+    margin-top: 20px;
+    margin-left: 11px;
+}
+
+.content5 #anhcho3 {
+	float: right;
+	position: absolute;
+}
+.content5 #anhcho3>img {
+	width: 220px;
+	margin-left: 937px;
+    margin-top: -340px;
+    position: absolute;
+}
+
+.content5 #anhcho3>p {
+	margin-left: 784px;
+    margin-top: -93px;
+}
+
+.content5 #anhcho3>button {
+	float: right;
+    margin-right: 230px;
+    margin-top: -7px;
+}

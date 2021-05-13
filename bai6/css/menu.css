@@ -1,0 +1,183 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: tahoma;
+	box-sizing: border-box;
+	outline: none;
+}
+.clearfix {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+}
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ccc;
+}
+
+body {
+	background-color: #ccc;
+}
+header {
+	background-color: #f53d2d;
+	color: white;
+}
+
+header a {
+	color: white;
+}
+/* top-menu */
+.top-menu , .bottom-menu  {
+	display: flex;
+	justify-content: space-between;
+}
+
+.top-menu div {
+	display: inline-block;
+	padding: 10px;
+}
+
+/* bottom-menu */
+
+.bottom-menu div {
+	padding: 20px;
+}
+
+.bottom-menu div svg:not(.icon-search) {
+	fill: white;
+	width: 200px;
+	height: auto;
+}
+
+.bottom-menu .search ul li {
+	display: inline-block;
+	padding: 5px;
+}
+
+.bottom-menu .search ul li a {
+	font-size: 12px;
+}
+
+.bottom-menu .form-search {
+	position: relative;
+}
+
+.bottom-menu .search input#search {
+  width: 500px;
+  height: 50px;
+  background: #f1f5f8;
+  border: none;
+  padding-left: 45px;
+  border-radius: 2px;
+}
+
+.bottom-menu .search button {
+  position: absolute;
+  right: 18%;
+  width: 10%;
+  height: 50px;
+  border-style: none;
+
+}
+
+/* top-banner */
+section {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 40px;
+	width: 1000px;
+} 
+
+section::after {
+	content: " . ";
+	display: block;
+	clear: both;
+	visibility: hidden;
+}
+
+.top-banner {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/* .top-banner img {
+	max-width: 100%;
+} */
+
+.top-banner .left {
+	width: 65%;
+	margin-right: 5%;
+}
+
+.top-banner img {
+	max-width: 100%;
+}
+
+.top-banner .right img {
+	padding-bottom: 8%;
+	
+}
+
+.top-banner .right {
+	width: 30%;
+}
+
+/* .bottom-banner */
+
+.bottom-banner {
+	border: 1px solid white;
+	border-radius: 2px;
+	margin-top : 2%;
+	background-color: white;
+}
+
+.bottom-banner ul {
+	display: flex;
+}
+
+.bottom-banner ul li {
+	display: inline-block;
+}
+.banner::after {
+	content: " . ";
+	clear: both;
+	display: block;
+	visibility: hidden;
+}
+
+#background-baner {
+	background-color: none;
+}
+#background-baner img {
+	max-width: 100%;
+}
+
+/* category */
+.category {
+	width: 100%;
+	height: 200px;
+	padding-top: 40px;
+}
+.category-list {
+	display: flex;
+	flex-wrap: wrap;
+	height: 200px;
+	width: 100%;
+}
+
+.category-list h3 {
+	text-transform: uppercase;
+}
+
+.category-list div {
+	width: 10%;
+}
+
+.category-list img {
+	max-width: 100%;
+}

@@ -1,0 +1,41 @@
+.content2 {
+	background-color: white;
+	margin-top: 0px;
+	padding-top: 100px;
+	overflow: auto;
+}
+
+.content2 #text2 {
+	float: left;
+	margin-left: 154px;
+	font-size: 25px;
+	width: 30%;
+}
+
+.content2 h1 {
+	font-size: 41px;
+}
+
+.content2 #nut2 {
+	background-color: #fcc302;
+	border: 1px solid #fcc302;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.content2 .anhcontent2>img {
+	padding-left: 318px;
+	margin-top: 20px;
+	width: 280px;
+	height: 350px;
+}
+
+.content2 #maunen {
+	background-color: #fcc302;
+    height: 145px;
+    width: 154px;  
+    margin-right: 354px;
+    margin-top: -130px;
+    float: right;
+} 
+

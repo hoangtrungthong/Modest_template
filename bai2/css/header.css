@@ -1,0 +1,56 @@
+.header .top {
+	background-color: #f4f4f4;
+	margin: 0px auto;
+}
+
+.header .top ul {
+	display: flex;
+}
+
+.header .top ul > li {
+	list-style-type: none;
+	line-height: 50px;
+	padding: 0px 100px 0px 15px;
+	margin: auto;
+}
+
+.header .top ul > li > a {
+	text-decoration: none;
+	color: black;
+}
+
+.header .top ul > li > form {
+	display: unset;
+}
+
+.header .top ul > li > form > select {
+	border: none;
+	background-color: #f4f4f4;
+}
+
+.header .bottom {
+	display: flex;
+	padding: 0px 150px 0px 15px;
+}
+
+.header .bottom > span {
+	margin-left: 200px;
+}
+
+.header .bottom > span > img {
+	margin-bottom: -30px;
+	margin-left: -25px;
+}
+
+.header .bottom > span  p > b {
+	color: red;
+}
+
+.header .bottom > span  p > b.cam {
+	color: orange;
+}
+
+.header .bottom > span  p > b.blue {
+	color: #8ac8ef;
+}
+

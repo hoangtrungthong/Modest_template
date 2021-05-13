@@ -1,0 +1,43 @@
+footer {
+	padding: 20px;
+	margin-top: 100px;
+}
+
+footer ul {
+	float: right;
+	display: flex;
+	margin-top: -27px;
+}
+
+footer ul li {
+	list-style-type: none;
+	padding: 7px;
+}
+
+footer ul li a {
+	text-decoration: none;
+
+}
+
+footer .aaaa img {
+	width: 40px;
+	height: 40px;
+}
+
+footer .aaaa {
+	clear: both;
+	padding-top: 20px;
+}
+
+footer .aaaa div {
+	float: right;
+}
+
+footer .cccc {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 15px;
+}
+
+footer span {
+	color: #92909b;
+}

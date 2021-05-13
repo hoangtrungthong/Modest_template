@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{ margin: 0px; padding: 0px;}
+a{ text-decoration: none; color: #888;}
+ul li{ list-style: none;}
+/* .clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+.clearfix {
+    clear: both;
+    display: block;
+} */
+/* body{ font-family: arial; font-size: 13px; }
+
+.wrapper_container{
+    width: 960px;
+    margin: 0px auto;
+} */
+
+/*this is style header*/
+/* #head{ background: #f4f4f4;}
+#logo, #main_menu{ float: left;} */
+
+
+#main_menu>li{ float: left; border-right: 1px solid #E8E8E8;}
+#main_menu>li:last-child{ border-right: none;}
+/* #main_menu li{ position: relative;} */
+#main_menu>li a{display: block; text-transform: none; padding: 10px;}
+#main_menu>li>a{ text-transform: uppercase;}
+#main_menu>li>a{ display: block; padding: 20px;}
+
+#main_menu li .sub_menu{ position: absolute; display: none;
+width: 200px;
+background: #f5f5f5;
+top: 0px;
+left: 100%;
+}
+#main_menu li:hover>.sub_menu { display: block;}
+#main_menu>li>.sub_menu{top: 55px;position: absolute;
+left: 0px;}
+#main_menu li:hover{ background: #fcfcfc;}
+
+
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="head" class="clearfix">
+            <div class="wrapper_container">
+                <div id="logo">
+                    <a href="">
+                        <img src="images/logo.png">
+                    </a>
+                </div>
+                <ul id="main_menu">
+                    <li><a href="">Máy tỉnh bảng</a></li>
+                    <li>
+                        <a href="">Điện thoại</a>
+                        <ul class="sub_menu">
+                            <li><a href="">Samsung</a>
+                                <ul class="sub_menu">
+                                    <li><a href="">Glaxy Win</a></li>
+                                    <li><a href="">Note 1</a>
+                                        <ul class="sub_menu">
+                                            <li><a href="">Glaxy Win</a></li>
+                                            <li><a href="">Note 1</a></li>
+                                            <li><a href="">Note 2</a></li>
+                                            <li><a href="">Glaxy Trend</a>
+                                                <ul class="sub_menu">
+                                                    <li><a href="">Glaxy Win</a></li>
+                                                    <li><a href="">Note 1</a></li>
+                                                    <li><a href="">Note 2</a></li>
+                                                    <li><a href="">Glaxy Trend</a></li>
+                                                    <li><a href="">Glaxy V</a></li>
+                                                </ul></li>
+                                            <li><a href="">Glaxy V</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="">Note 2</a></li>
+                                    <li><a href="">Glaxy Trend</a></li>
+                                    <li><a href="">Glaxy V</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">Asus</a></li>
+                            <li><a href="">Lenove</a></li>
+                            <li><a href="">Apple</a></li>
+                            <li><a href="">Oppo</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Tablet</a></li>
+                    <li><a href="">Latop</a></li>
+                    <li><a href="">App/game</a></li>
+                    <li><a href="">Tin tức</a></li>
+                    <li><a href="">Khuyến mãi</a></li>
+                </ul>
+                <form id="search">
+                    <input type="text" name="s" placeholder="Tìm kiếm">
+                </form>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+</body>
+</html>

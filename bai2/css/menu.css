@@ -1,0 +1,111 @@
+.menu  {
+	display: flex;
+
+	background-color: #f4f4f4;
+}
+
+
+
+ul.root {
+	display: flex;
+	float: left;
+}
+
+ul.root > li {
+	list-style-type: none;
+	line-height: 50px;
+	padding: 0px 15px 0px 15px;
+	
+}
+
+ul.root > li > a {
+	text-decoration: none;
+	display: block;
+	color: black;
+}
+
+ul.root > li > a:hover {
+	background-color: #7cd0f5;
+	border: 1px solid #fff;
+	border-radius: 20px;
+	padding-left: 20px ;
+	padding-right: 20px;
+}
+
+ul.submenu {
+	width: 200px;
+	min-height: 100px;
+	display: none;
+}
+
+ul.submenu li {
+	list-style-type: none;
+	line-height: 50px;
+}
+
+ul.submenu li a {
+	text-decoration: none;
+	color: black;
+	background-color: #7cd0f5;
+	border: 1px solid #fff;
+	border-radius: 20px;
+}
+
+ul.root > li:hover ul.submenu {
+	display: block;
+}
+
+.menu form {
+	margin: auto;
+	display: block;
+	margin-left: 350px;
+}
+
+button {
+	height: 30px;
+    margin-left: -50px;
+    margin-top: 3px;
+	border: 1px solid #fff;
+	border-radius: 20px;
+    width: 40px;
+    background: white;
+    position: absolute;
+}
+
+input {
+	border: none;
+	border-radius: 20px;
+	padding: 8px;
+}
+
+form > button > img {
+
+}
+
+.cart {
+	margin: auto;
+	width: 110px;
+	margin-right: 110px;
+}
+
+.banner {
+	width: 100%;
+	padding-top: 40px;
+	margin: auto;
+	padding-bottom: 40px;
+}
+
+.banner div {
+	float: right;
+    width: 38%;
+    height: 550px;
+}
+
+.banner div img {
+	width: 80%;
+    height: 49%;
+}
+
+.banner div #cc {
+	margin-top: 22px;
+}

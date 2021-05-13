@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+body {
+    width: 100%;
+}
+
+header {
+    width: 100%;
+}
+
+body {
+    width: 100%;
+}
+
+/* top-menu */
+.top-menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    padding: 20px 200px 0;
+}
+
+.top-menu #between-menu {
+    display: flex;
+}
+
+.top-menu #between-menu form {
+    padding-right: 20px;
+    position: relative;
+}
+
+.top-menu #between-menu form button {
+    position: absolute;
+    left: 81%;
+}
+
+.top-menu #between-menu ul li{
+    display: inline-block;
+    padding-right: 10px;
+}
+
+/* bottom-menu */
+
+.bottom-menu {
+    display: flex;
+    padding: 20px 200px 20px;
+    background-color: #ccc;
+    justify-content: space-between;
+}
+
+.bottom-menu li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+/* banner */
+
+.container {
+    margin: 20px 200px 0;
+    float: left;
+    width: 70%;
+}
+
+.banner div:last-child ul {
+    display: flex;
+}
+
+.banner div:last-child ul li {
+    display: inline-block;
+    padding-right: 25px;
+}
+
+.banner img {
+    max-width: 100%;
+}
+
+/* content */
+
+.top-content {
+    padding: 30px 0 20px;
+}
+
+.top-content-block {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   width: 68%;
+   justify-content: space-between;
+   margin-top: 10px;
+    
+}
+
+.top-content-block .top-conent-open {
+  width: 18%;
+    
+    
+}
+
+.top-content-block div:last-child {
+    margin-right: 0;
+}
+.top-content-block .top-conent-open  img {
+    max-width: 100%;
+}
+
+.list-song {
+    flex-direction: column;
+    flex-wrap: wrap;
+  
+    justify-content: space-between;
+}
+
+.list-song > div {
+    /* align-items: ;
+    flex-direction: column-reverse; */
+}
+
+
+
+
+/* sidebar */
+
+.sidebar {
+    float: right;
+    width: 30%;
+}
+
+.top-sidebar img {
+    max-width: 100%;
+}

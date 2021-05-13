@@ -1,0 +1,50 @@
+.footer {	
+	background-color: #1c1f26;
+	padding: 50px 0 50px 50px;
+	clear: both;
+}
+
+.footer table td,th {
+	text-align: left;
+	border: 1px solid #1c1f26;
+	text-align: left;
+}
+
+.footer table th{
+	padding:0px 65px 25px 5px;
+}
+
+.footer table th > a {
+	color: white;
+}
+
+.footer table td {
+	padding: 5px;
+} 
+
+.footer a {
+	text-decoration: none;
+	color: #848a91;
+}
+
+.footer a:hover {
+	background-color: #ccc;
+	
+	color: red;
+	transition: ease-in 1s;
+	-moz-transition: ease-in 1s;
+}
+
+.footer .footer1 {
+	float: right;
+	margin-top: -230px;
+}
+
+.footer .footer1 .text {
+	margin-top: 150px;
+}
+
+.footer .footer1 .text #aaa {
+	margin-left: 139px;
+
+}

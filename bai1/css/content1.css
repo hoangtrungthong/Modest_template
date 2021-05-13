@@ -1,0 +1,44 @@
+.content1 {
+	background-color: #fcc302;
+	margin-top: 0px;
+	padding-top: 100px;
+	overflow: auto;
+	
+
+}
+.text {
+	float: left;
+    color: white;
+    margin-left: 154px;
+    font-size: 25px;
+    width: 30%;
+}
+h1 {
+	font-size: 45px;
+}
+
+.text p {
+	font-size: 22px;
+}
+
+ #call {
+ 	background-color: #00bec9;
+ 	border: 1px solid #00bec9;
+ 	border-radius: 10px;
+ 	padding: 10px; 
+ 	color: white;
+ }
+
+ #alo {
+ 	padding: 10px;
+ 	border-radius: 10px;
+ 	border: 1px solid #ffffff;
+  	color: white;
+  	background-color: #fcc302;
+
+ }
+.doggy img{ 
+	padding-left: 318px;
+	margin-top: -37px;
+	width: 280px;
+}

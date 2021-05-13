@@ -1,0 +1,49 @@
+.content7 {
+	background-color: #f4c422;
+	color: white;
+	
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	padding-top: 100px;
+	padding-bottom: 30px;
+}
+
+.content7 h1 {
+	text-align: center;
+}
+
+.content7 #tim{
+	margin-left: 230px;
+}
+
+.content7 #tim>h1{
+	margin-left: -1000px;
+}
+.content7 #tai{
+	float: right;
+	position: absolute;
+	margin-left: 600px;
+}
+.content7 #tai>img{
+	margin-top: -270px;
+	margin-left: 40px;
+	position: absolute;
+}
+
+.content7 #tai>h1 {
+	margin-top: -140px;
+    margin-left: -32px;
+}
+
+.content7 #tiem{
+	float: right;
+	margin-top: -275px;
+    margin-right: 147px;
+}
+.content7 #tiem>img{
+	position: absolute;
+    margin-left: 70px;
+}
+.content7 #tiem>h1{
+	margin-top: 134px;
+}

@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+	font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+	box-sizing: border-box;
+}
+
+.clearfix {
+	content: " ";
+	clear: both;
+	display: block;
+}
+
+a:hover , a:visited {
+	background-color: black;
+	transition: ease-in 1s;
+	-moz-transition: ease-in 1s;
+}
+
+a:active {
+	background-color: darkred;
+}
+
+a {
+	text-decoration: none;
+	
+}
+li {
+	list-style-type: none;
+}
+
+header {
+	background-color: #181b23 ;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding-right: 2em;
+	color: white;
+
+}
+
+header span {
+	padding: 1em;
+
+}
+
+.menu {
+	display: inline-flex;
+	justify-content: space-between;
+
+}
+
+.menu > li{
+	position: relative;
+	border-left: 1px solid slategrey;
+}
+
+.menu > li:last-child {
+	border-right: 1px solid slategrey;
+}
+
+
+.menu li a {
+	padding: 1em;
+	display: block;
+	color: white;
+}
+ 
+.menu > li > .submenu {
+	position: absolute;
+	display: none;
+	width: 100%;
+	text-align:center
+}
+
+.menu > li > .submenu > li {
+	border: 1px solid slategrey;
+}
+
+.menu > li:hover .submenu {
+	display: block;
+}
+
+.bottomheader {
+	text-align: center;
+	color: white;
+/*	position: relative;*/
+}
+/*
+.duoi {
+	width: 100%;
+	z-index: 1;
+	
+}
+
+.bottom {
+	z-index: 2;
+	position: absolute;
+	bottom: 30%;
+}*/
+
+.bottomheader p {
+	padding: 1em;
+	word-wrap: break-word;
+	background: url(img/header.png) no-repeat;
+	text-indent: 8%;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+.chung {
+	border: 1px solid #ccc;
+	padding: 1em;
+}

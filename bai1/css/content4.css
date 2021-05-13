@@ -1,0 +1,45 @@
+.content4 {
+	background-color: white;
+	margin-top: 0px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	overflow: hidden;
+
+}
+
+.content4 #text4 {
+	float: right;
+	margin-right: 154px;
+	font-size: 25px;
+	width: 30%;
+	text-align: right;
+}	
+
+.content4 h1 {
+	font-size: 41px;
+}
+
+.content4 #nut4 {
+	background-color: #fcc302;
+	border: 1px solid #fcc302;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.content4 .anhcontent4 img {
+	padding-left: 185px;
+	margin-top: 70px;
+	width: 280px;
+	height: 350px;
+	float: left;
+}
+
+.content4 #background4 {
+	background-color: #fcc302;
+    height: 145px;
+    width: 154px;
+    float: left;
+    margin-top: 280px;
+    margin-left: -128px;
+ 	padding-bottom: 10px;
+}    

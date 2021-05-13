@@ -1,0 +1,48 @@
+h1 {
+	font-size: 30px;
+}
+
+.feature {
+	margin-left: 20px;
+	margin-right: 50px;
+}
+.feature .baner1 {
+	display: flex;
+	width: 99%;
+}
+
+.feature .baner1  div > img {
+	 width: 200px;
+	 height: 200px;
+}
+
+.feature .baner1 span {
+	float: left;
+	color: #565273;
+}
+
+.feature .baner1 span strike {
+	color: #d2d0dd;
+}
+
+.feature .baner1 span b {
+	color: #4b4867;
+}
+
+.feature .baner1 span.abc {
+	position: absolute;
+    display: flex;
+    margin-top: 40px;
+}
+
+.feature .baner1 span.abc img {
+	width: 40px;
+}
+
+.feature .baner1 span div {
+	color: #b5b5b7;
+}
+
+.feature .qc {
+	margin-top: 40px;
+}
